@@ -1,0 +1,45 @@
+{"t": "20:07:17", "kind": "info", "ip": "-", "detail": "TCP decoy tarpit on 9001"}
+{"t": "20:07:17", "kind": "info", "ip": "-", "detail": "UDP knock listener on 9999 (never replies)"}
+{"t": "20:07:17", "kind": "info", "ip": "-", "detail": "dashboard on http://localhost:8080"}
+{"t": "20:14:31", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:33", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 2.1s"}
+{"t": "20:14:33", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:33", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:14:33", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:33", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:14:33", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:33", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:14:35", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:35", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.1s"}
+{"t": "20:14:35", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:35", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:14:35", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:35", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:14:35", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:14:35", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:15:25", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:15:25", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.1s"}
+{"t": "20:15:25", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:15:25", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:15:25", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:15:25", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:15:25", "kind": "decoy_hits", "ip": "127.0.0.1", "detail": "connected to decoy service - trapping"}
+{"t": "20:15:25", "kind": "tarpit_end", "ip": "127.0.0.1", "detail": "held attacker for 0.0s"}
+{"t": "20:22:01", "kind": "info", "ip": "-", "detail": "dashboard on http://localhost:8080"}
+{"t": "20:22:00", "kind": "info", "ip": "-", "detail": "TCP decoy tarpit on 9001"}
+{"t": "20:22:00", "kind": "info", "ip": "-", "detail": "UDP knock listener on 9999 (never replies)"}
+{"t": "20:22:02", "kind": "decoy_hits", "ip": "127.0.0.3", "detail": "connected to decoy service - trapping"}
+{"t": "20:22:02", "kind": "decoy_hits", "ip": "127.0.0.3", "detail": "connected to decoy service - trapping"}
+{"t": "20:22:02", "kind": "tarpit_end", "ip": "127.0.0.3", "detail": "held attacker for 0.0s"}
+{"t": "20:22:05", "kind": "tarpit_end", "ip": "127.0.0.3", "detail": "held attacker for 2.5s"}
+{"t": "20:22:05", "kind": "knock_ok", "ip": "127.0.0.2", "detail": "valid knock -> door open for 6.0s"}
+{"t": "20:22:05", "kind": "door_open", "ip": "-", "detail": "TCP 9000 now listening"}
+{"t": "20:22:05", "kind": "vault_sessions", "ip": "127.0.0.2", "detail": "authenticated session started"}
+{"t": "20:22:05", "kind": "knock_replay", "ip": "127.0.0.3", "detail": "nonce 87eae558d13f7891 already used -> ignored"}
+{"t": "20:22:06", "kind": "intruders_refused", "ip": "127.0.0.3", "detail": "connected during open window, no valid knock -> RST"}
+{"t": "20:22:06", "kind": "knock_badsig", "ip": "127.0.0.3", "detail": "51 bytes -> ignored silently"}
+{"t": "20:22:06", "kind": "intruders_refused", "ip": "127.0.0.3", "detail": "connected during open window, no valid knock -> RST"}
+{"t": "20:22:06", "kind": "knock_ok", "ip": "127.0.0.1", "detail": "valid knock -> door open for 6.0s"}
+{"t": "20:22:11", "kind": "access_expired", "ip": "127.0.0.2", "detail": "window ended"}
+{"t": "20:22:12", "kind": "access_expired", "ip": "127.0.0.1", "detail": "window ended"}
+{"t": "20:22:12", "kind": "door_closed", "ip": "-", "detail": "TCP 9000 closed (RST for everyone)"}
